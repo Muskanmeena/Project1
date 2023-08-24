@@ -1,0 +1,90 @@
+
+
+@font-face{
+    font-family: myFirstFont;
+    src: url('https://fonts.googleapis.com/css?family=Playfair Display');
+}
+
+ul{
+    font-family: myFirstFont;
+   
+    display: flex;
+}
+
+li{
+   
+    margin-top: 50px;
+    margin-left: 40px;
+    list-style: none;
+    margin-right: 10px;
+}
+.main,a:link,a:visited{
+    text-decoration: none;
+    color: black;
+   
+
+    background-image: url(https://www.wns.co.za/Portals/0/Images/HeaderBanner/desktop/1087/53/travel_HD.jpg );
+   
+  height: 800px;
+    background-size: 1600px ;
+    background-repeat: no-repeat;
+  
+
+   
+}
+.passport{
+  
+
+    font-size: 34px;
+
+}
+.home{
+   font-size: 24px;
+}
+.about{
+    font-size:  24px;
+}
+.contact{
+float: right;
+text-align: end;
+    font-size:  24px;
+}
+.drop{
+    font-size:  24px;
+}
+.blog{
+    font-size:  24px;
+}
+.services{
+    font-size:  24px; 
+}
+.dropbtn{
+   
+    color: black;
+    padding: 16px;
+    border: none;
+   cursor: pointer;
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: aqua;
+    min-width: 160px;
+
+}
+ .dropdown-content a {
+color: black;
+text-decoration: none;
+display: block;
+}
+.text1{
+    text-align: left;
+    margin-top: 70px;
+    margin-left: 20px;
+    font-size: 50px;
+    font-family: myFirstFont;
+}
