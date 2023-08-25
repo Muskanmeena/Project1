@@ -45,9 +45,13 @@ li{
     font-size:  24px;
 }
 .contact{
-float: right;
-text-align: end;
-    font-size:  24px;
+margin-top: 0%;
+    border-color: black;
+    float: right;
+    border-radius: 30%;
+    text-decoration: none;
+    font-size: 24px;
+    
 }
 .drop{
     font-size:  24px;
@@ -87,4 +91,36 @@ display: block;
     margin-left: 20px;
     font-size: 50px;
     font-family: myFirstFont;
+}
+.image1{
+ height: 360px;
+ width: 425px;
+}
+.image2{
+  height: 360px;
+ width: 425px;   
+}
+.photo{
+    display: inline-block;
+
+}
+.photo2{
+    display: inline-block;
+      
+  
+}
+.img1{
+    height: 211px;
+ width: 268px;     
+}
+.imagee{
+height: 80px;
+width: 80px;
+   border-radius: 100%;
+}
+.qoute{
+  font-size: 50px;
+}
+.sbout{
+    color: orange;
 }
